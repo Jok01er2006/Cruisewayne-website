@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cruise Wayne | Official Website | Nigerian Afrobeats Artist</title>
+
+  <meta name="description" content="Discover Cruise Wayne, an independent Nigerian Afrobeats artist. Explore his story, music releases, Chapter One, Shadow and Too Late, and follow his musical journey.">
+
+  <meta name="keywords" content="Cruise Wayne, Cruise Wayne music, Nigerian Afrobeats, Chapter One, Shadow, Too Late, FG Gang">
+
+  <meta name="author" content="Cruise Wayne">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#090909">
+
+  <meta property="og:title" content="Cruise Wayne | Official Artist Website">
+  <meta property="og:description" content="The music. The story. The journey. Discover Cruise Wayne.">
+  <meta property="og:type" content="profile">
+  <meta property="og:image" content="cruise-wayne.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cruise Wayne">
+  <meta name="twitter:description" content="Official website of Nigerian Afrobeats artist Cruise Wayne.">
+  <meta name="twitter:image" content="cruise-wayne.jpg">
+
+  <!-- Replace with your final domain after purchase -->
+  <link rel="canonical" href="https://www.cruisewayne.com/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Google structured artist information -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Cruise Wayne",
+    "url": "https://www.cruisewayne.com/",
+    "image": "https://www.cruisewayne.com/cruise-wayne.jpg",
+    "description": "Cruise Wayne is an independent Nigerian Afrobeats recording artist and member of FG Gang. His music is inspired by life's struggles, pain, suffering and friendship.",
+    "jobTitle": "Recording Artist",
+    "nationality": {
+      "@type": "Country",
+      "name": "Nigeria"
+    },
+    "genre": "Afrobeats",
+    "sameAs": [
+      "https://audiomack.com/pita52428",
+      "https://tiktok.com/@cruisewane",
+      "https://www.instagram.com/cruisewayne20/",
+      "https://youtube.com/@cruisewayne"
+    ]
+  }
+  </script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --gold: #d4af37;
+      --black: #090909;
+      --dark: #121212;
+      --white: #ffffff;
+      --muted: #aaaaaa;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: var(--black);
+      color: var(--white);
+      line-height: 1.7;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1150px;
+      margin: auto;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(9,9,9,.96);
+      border-bottom: 1px solid #292929;
+    }
+
+    nav {
+      min-height: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      color: var(--gold);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 23px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .nav-links a:hover {
+      color: var(--gold);
+    }
+
+    .hero {
+      min-height: 670px;
+      display: flex;
+      align-items: center;
+      background:
+        linear-gradient(90deg, #090909 15%, rgba(9,9,9,.85) 50%, rgba(9,9,9,.35)),
+        url('cruise-wayne.jpg') center 30% / cover no-repeat;
+    }
+
+    .hero-content {
+      max-width: 700px;
+      padding: 100px 0;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      letter-spacing: 5px;
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(48px, 9vw, 92px);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -3px;
+    }
+
+    h1 span {
+      color: var(--gold);
+    }
+
+    .hero p {
+      color: #cccccc;
+      margin: 25px 0;
+      max-width: 520px;
+      font-size: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 25px;
+      border: 1px solid var(--gold);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      margin: 5px 8px 5px 0;
+      transition: .3s;
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: #000;
+    }
+
+    .btn:hover {
+      background: white;
+      color: black;
+      border-color: white;
+    }
+
+    section {
+      padding: 90px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .section-title h2 {
+      font-size: clamp(27px, 5vw, 40px);
+      font-weight: 900;
+    }
+
+    .section-title h2 span {
+      color: var(--gold);
+    }
+
+    .section-title p {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 8px;
+    }
+
+    .about {
+      background: var(--dark);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .about-photo {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      border: 1px solid #333;
+    }
+
+    .about-text h3 {
+      font-size: 29px;
+      margin-bottom: 15px;
+    }
+
+    .about-text h3 span {
+      color: var(--gold);
+    }
+
+    .about-text p {
+      color: #bbbbbb;
+      font-size: 14px;
+      margin-bottom: 17px;
+    }
+
+    .artist-details {
+      margin-top: 20px;
+      border-top: 1px solid #333;
+      padding-top: 15px;
+    }
+
+    .artist-details p {
+      margin: 8px 0;
+    }
+
+    .artist-details strong {
+      color: var(--gold);
+    }
+
+    .music-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .music-card {
+      background: #171717;
+      border: 1px solid #292929;
+      padding: 18px;
+      transition: .3s;
+    }
+
+    .music-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-5px);
+    }
+
+    .cover {
+      height: 210px;
+      background: linear-gradient(135deg, #242424, #090909);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold);
+      font-size: 28px;
+      font-weight: 900;
+      text-align: center;
+      letter-spacing: 2px;
+      margin-bottom: 18px;
+    }
+
+    .music-card h3 {
+      font-size: 19px;
+      margin-bottom: 5px;
+    }
+
+    .music-card p {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 15px;
+    }
+
+    .music-card .btn {
+      width: 100%;
+      text-align: center;
+      margin: 0;
+    }
+
+    .story {
+      background: var(--dark);
+      text-align: center;
+    }
+
+    .story-content {
+      max-width: 760px;
+      margin: auto;
+    }
+
+    .story-content p {
+      color: #bbbbbb;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+    .story-highlight {
+      color: var(--gold);
+      font-size: 23px;
+      font-weight: 900;
+      margin-top: 30px;
+    }
+
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+    }
+
+    .social-card {
+      padding: 25px 10px;
+      text-align: center;
+      background: #171717;
+      border: 1px solid #292929;
+      font-size: 13px;
+      font-weight: 800;
+      transition: .3s;
+    }
+
+    .social-card:hover {
+      color: var(--gold);
+      border-color: var(--gold);
+    }
+
+    .contact {
+      background: var(--dark);
+      text-align: center;
+    }
+
+    .contact p {
+      color: var(--muted);
+      margin: 15px auto 25px;
+      max-width: 600px;
+    }
+
+    footer {
+      padding: 35px 0;
+      border-top: 1px solid #292929;
+      text-align: center;
+    }
+
+    footer h3 {
+      color: var(--gold);
+      letter-spacing: 3px;
+      font-size: 20px;
+    }
+
+    footer p {
+      color: #888;
+      font-size: 11px;
+      margin-top: 10px;
+    }
+
+    @media(max-width: 750px) {
+      .nav-links {
+        gap: 12px;
+        font-size: 9px;
+      }
+
+      .logo {
+        font-size: 16px;
+      }
+
+      .hero {
+        min-height: 570px;
+        background-position: center;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .about-photo {
+        height: 350px;
+      }
+
+      .music-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .social-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      section {
+        padding: 65px 0;
+      }
+    }
+
+    @media(max-width: 420px) {
+      nav {
+        flex-direction: column;
+        padding: 13px 0;
+      }
+
+      .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <a href="#home" class="logo">CRUISE WAYNE</a>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#music">Music</a>
+        <a href="#connect">Connect</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-content">
+      <div class="eyebrow">OFFICIAL ARTIST WEBSITE</div>
+
+      <h1>CRUISE<br><span>WAYNE.</span></h1>
+
+      <p>
+        Independent Nigerian Afrobeats artist.
+        Music inspired by life's struggles, pain,
+        friendship and the determination to keep moving.
+      </p>
+
+      <a href="#music" class="btn btn-primary">
+        EXPLORE MY MUSIC
+      </a>
+
+      <a href="#about" class="btn">
+        MY STORY
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>ABOUT <span>CRUISE WAYNE</span></h2>
+      <p>The artist behind the music.</p>
+    </div>
+
+    <div class="about-grid">
+
+      <img
+        src="cruise-wayne.jpg"
+        alt="Official artist portrait of Cruise Wayne"
+        class="about-photo"
+      >
+
+      <div class="about-text">
+        <h3>MY NAME IS <span>CRUISE WAYNE</span></h3>
+
+        <p>
+          I am an independent Nigerian Afrobeats
+          recording artist and a member of FG Gang.
+        </p>
+
+        <p>
+          My musical journey officially started
+          on 20 June 2025. My inspiration comes
+          from life's struggles, pain, suffering,
+          personal experiences and the influence
+          of my friends.
+        </p>
+
+        <p>
+          I believe music is more than entertainment.
+          It is a way to communicate emotions,
+          tell stories and connect with people.
+        </p>
+
+        <p>
+          Through my music, I want to reach people
+          who understand life's challenges and
+          appreciate the strength it takes to
+          keep moving forward.
+        </p>
+
+        <div class="artist-details">
+          <p><strong>Artist:</strong> Cruise Wayne</p>
+          <p><strong>Genre:</strong> Afrobeats</p>
+          <p><strong>Country:</strong> Nigeria</p>
+          <p><strong>Collective:</strong> FG Gang</p>
+          <p><strong>Career started:</strong> 20 June 2025</p>
+          <p><strong>Artist status:</strong> Independent</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MUSIC -->
+<section id="music">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>MY <span>MUSIC</span></h2>
+      <p>Discover my official releases.</p>
+    </div>
+
+    <div class="music-grid">
+
+      <div class="music-card">
+        <div class="cover">CHAPTER<br>ONE</div>
+        <h3>Chapter One</h3>
+        <p>Official release by Cruise Wayne</p>
+        <a href="https://audiomack.com/pita52428"
+           target="_blank" rel="noopener"
+           class="btn btn-primary">
+          LISTEN ON AUDIOMACK
+        </a>
+      </div>
+
+      <div class="music-card">
+        <div class="cover">SHADOW</div>
+        <h3>Shadow</h3>
+        <p>Official release by Cruise Wayne</p>
+        <a href="https://audiomack.com/pita52428"
+           target="_blank" rel="noopener"
+           class="btn btn-primary">
+          LISTEN ON AUDIOMACK
+        </a>
+      </div>
+
+      <div class="music-card">
+        <div class="cover">TOO LATE</div>
+        <h3>Too Late</h3>
+        <p>Official release by Cruise Wayne</p>
+        <a href="https://audiomack.com/pita52428"
+           target="_blank" rel="noopener"
+           class="btn btn-primary">
+          LISTEN ON AUDIOMACK
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ARTIST STORY -->
+<section class="story">
+  <div class="container">
+    <div class="story-content">
+
+      <div class="eyebrow">MY MUSICAL PHILOSOPHY</div>
+
+      <div class="section-title">
+        <h2>THE MUSIC. <span>THE STORY.</span><br>THE JOURNEY.</h2>
+      </div>
+
+      <p>
+        Every experience tells a story.
+        Every struggle carries a lesson.
+        Every song is an opportunity to express
+        something words alone cannot explain.
+      </p>
+
+      <div class="story-highlight">
+        THIS IS THE JOURNEY OF CRUISE WAYNE.
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL MEDIA -->
+<section id="connect">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>CONNECT <span>WITH ME</span></h2>
+      <p>Follow my journey and stay connected.</p>
+    </div>
+
+    <div class="social-grid">
+
+      <a class="social-card"
+         href="https://audiomack.com/pita52428"
+         target="_blank" rel="noopener">
+        AUDIOMACK
+      </a>
+
+      <a class="social-card"
+         href="https://tiktok.com/@cruisewayne"
+         target="_blank" rel="noopener">
+        TIKTOK
+      </a>
+
+      <a class="social-card"
+         href="https://instagram.com/cruisewayne20"
+         target="_blank" rel="noopener">
+        INSTAGRAM
+      </a>
+
+      <a class="social-card"
+         href="https://youtube.com/@cruisewayne"
+         target="_blank" rel="noopener">
+        YOUTUBE
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <div class="container">
+
+    <div class="eyebrow">BOOKINGS & ENQUIRIES</div>
+
+    <div class="section-title">
+      <h2>LET'S <span>CONNECT</span></h2>
+    </div>
+
+    <p>
+      For music collaborations, performances,
+      bookings and business enquiries,
+      connect with Cruise Wayne through his
+      official social media platforms.
+    </p>
+
+    <a href="https://instagram.com/cruisewayne20"
+       target="_blank" rel="noopener"
+       class="btn btn-primary">
+      CONTACT CRUISE WAYNE
+    </a>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <h3>CRUISE WAYNE</h3>
+
+    <p>
+      OFFICIAL ARTIST WEBSITE
+    </p>
+
+    <p>
+      © <span id="year">2026</span> Cruise Wayne.
+      All Rights Reserved.
+    </p>
+
+    <p>
+      Independent Nigerian Afrobeats Artist.
+    </p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent =
+    new Date().getFullYear();
+</script>
+
+</body>
+</html>
