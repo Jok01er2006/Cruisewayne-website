@@ -431,6 +431,30 @@ href="/favicon.jpg">
         justify-content: center;
       }
     }
+    /* FORCE PHONE TO BE BIG */
+html, body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+* { box-sizing: border-box !important; }
+img, video { max-width: 100% !important; height: auto !important; }
+
+/* Kill any code wey dey force laptop size */
+.container, .wrapper, .main, section {
+  width: 100% !important;
+  max-width: 100% !important;
+  transform: none !important;
+  zoom: 1 !important;
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 38px !important; }
+  h2 { font-size: 28px !important; }
+  p { font-size: 16px !important; }
+  div { flex-wrap: wrap !important; }
+}
   </style>
 </head>
 
