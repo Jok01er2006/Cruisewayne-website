@@ -431,29 +431,33 @@ href="/favicon.jpg">
         justify-content: center;
       }
     }
-    /* FORCE PHONE TO BE BIG */
-html, body {
-  width: 100% !important;
-  overflow-x: hidden !important;
-  margin: 0 !important;
-  padding: 0 !important;
+    body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
-* { box-sizing: border-box !important; }
-img, video { max-width: 100% !important; height: auto !important; }
-
-/* Kill any code wey dey force laptop size */
-.container, .wrapper, .main, section {
-  width: 100% !important;
-  max-width: 100% !important;
-  transform: none !important;
-  zoom: 1 !important;
+* {
+  box-sizing: border-box;
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+/* No website go pass phone width again */
+.container, .wrapper, section, header, footer, div {
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {
-  h1 { font-size: 38px !important; }
+  /* Make phone layout stack, no side-by-side */
+  .about-content, .hero-content, .row, .flex, [class*="flex"] {
+    flex-direction: column !important;
+    display: block !important;
+  }
+  h1 { font-size: 42px !important; line-height: 1.1 !important; }
   h2 { font-size: 28px !important; }
   p { font-size: 16px !important; }
-  div { flex-wrap: wrap !important; }
 }
   </style>
 </head>
